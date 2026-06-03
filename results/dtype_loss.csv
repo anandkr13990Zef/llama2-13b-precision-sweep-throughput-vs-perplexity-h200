@@ -1,0 +1,11 @@
+dtype,bits,kind,status,ce,ppl,ppl_ratio
+fp128,128,unavailable,skipped,,,
+fp64,64,native,ok,1.50497,4.504,1.0
+fp32,32,native,ok,1.50497,4.504,1.0
+fp16,16,native(ref),ok,1.50497,4.504,1.0
+bf16,16,native,ok,1.50497,4.504,1.0
+fp8_e4m3,8,native-h200,ok,1.50914,4.5229,1.0042
+fp6_e3m2,6,emulated,ok,1.51574,4.5528,1.0108
+int8,8,RTN/channel,ok,1.50541,4.506,1.0004
+int4,4,RTN/group128,ok,1.5493,4.7082,1.0453
+int2,2,RTN/group128,ok,11.68978,119345.5479,26497.5338
